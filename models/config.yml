@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: jaffle_shop
+    schema: dbt_alice
+    tables:
+      - name: orders
